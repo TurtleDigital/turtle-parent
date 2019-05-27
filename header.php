@@ -33,7 +33,10 @@
 		</nav>
 
 		<div id="menu-button">
-			Menu
+			<span></span>
+		  <span></span>
+		  <span></span>
+		  <span></span>
 		</div>
 
 	</header>
