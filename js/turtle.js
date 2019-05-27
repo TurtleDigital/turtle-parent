@@ -19,10 +19,8 @@ $(document).ready(function(){
 
   }
 
-});
+  $(".sub-menu").filter(function () {
+      return $(this).find('li').length < 4
+  }).addClass("small-menu");
 
-if( $('.sub-menu').length >= 3 ) {
-  $(".sub-menu").html("This box has more than 3");
-  }else{
-  $('.sub-menu').html("This has less than 3")
-  }
+});
